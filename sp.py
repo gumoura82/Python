@@ -36,6 +36,12 @@ def encontrar_menor_tempo(medias):
     menor_tempo = medias[menor_tempo_piloto]
     return menor_tempo_piloto, menor_tempo
 
+#Função para encontrar o piloto como maior tempo médio
+def encontrar_maior_tempo(medias):
+    maior_tempo_piloto = max(medias, key=medias.get)
+    maior_tempo = medias[maior_tempo_piloto]
+    return maior_tempo_piloto, maior_tempo
+
 # Função principal para executar as tarefas
 def main():
     planilha = '2024 Sao Paulo E-Prix'
@@ -46,6 +52,10 @@ def main():
     if medias:  # Verificar se há médias calculadas
         menor_tempo_piloto, menor_tempo = encontrar_menor_tempo(medias)
         print(f'O piloto com o menor tempo médio é {menor_tempo_piloto} com um tempo médio de {menor_tempo:.2f} segundos.')
+
+        maior_tempo_piloto, maior_tempo = encontrar_maior_tempo(medias)
+        print(f'O piloto com o maior tempo médio é {maior_tempo_piloto} com um tempo médio de {maior_tempo:.2f} segundos.')
+        
     else:
         print('Nenhum tempo válido foi encontrado.')
 
