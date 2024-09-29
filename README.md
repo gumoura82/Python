@@ -40,7 +40,7 @@ Este projeto visa analisar os tempos de volta dos pilotos da Fórmula E a partir
 ## Instruções de Uso
 
 ### Pré-requisitos
-- Python 3.x.
+- Python 3.x instalado.
 - Bibliotecas `pandas` e `matplotlib` instaladas.
 
 ### Preparação do Arquivo
