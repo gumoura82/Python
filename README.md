@@ -50,8 +50,8 @@ Este projeto visa analisar os tempos de volta dos pilotos da Fórmula E a partir
 - Execute o script **main.py** e siga as instruções no terminal para escolher a corrida e a análise desejada.
 
 ## Informações Relevantes
-- Certifique-se de que os tempos na planilha estão no formato correto 'MM:ss.sss'.
-- Em caso de erro, revise a formatação dos dados e o conteúdo da planilha.
+- Certifique-se de que os dados na planilha estão formatados corretamente, com os tempos de volta no formato 'MM:ss.sss'.
+- Caso ocorra um erro de leitura dos dados ou formatação dos tempos, verifique a consistência dos dados na planilha.
 
 ---
 
